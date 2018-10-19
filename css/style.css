@@ -31,9 +31,11 @@ body {
 }
 
 .header {
-  background-color: #33333D;
-  height: 100vh;
   width: 100%;
+  height: 70px;
+  background: #FFFFFF;
+  border: 1px solid #E4E4E4;
+  min-width: 1000px;
 }
 
 .baltzer-web {
@@ -253,6 +255,365 @@ body {
 .baltzer-web .line {
   margin: auto;
   margin-top: 50px;
+  width: 696px;
+  height: 1px;
+  background-color: #e4e4e4;
+}
+/*
+@font-face {
+  font-family: 'Lato';
+  font-weight: 400;
+  src: url("../lato/Lato-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 500;
+  src: url("../lato/Lato-Medium.ttf");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 800;
+  src: url("../lato/Lato-Bold.ttf");
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-weight: 900;
+  src: url("../lato/Lato-Heavy.ttf");
+} */
+
+/* body {
+  font-family: 'Lato';
+  color: #5B5B5B;
+  -webkit-font-smoothing: antialiased;
+
+} */
+
+.anirandom .drop-down-menu {
+    font-weight: 500;
+    box-sizing: border-box;
+    color: #6e6e6e;
+    background: #FCFCFC;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.24);
+    border-radius: 2px;
+    transition: 0.3s ease;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.anirandom .drop-down-menu ul {
+    width: 200px;
+    height: 192px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    margin: 0;
+    font-weight: 600;
+    padding: 0;
+}
+
+.anirandom .synopsis::-webkit-scrollbar {width: 8px;padding-left: 20px;}
+
+.anirandom .synopsis::-webkit-scrollbar-thumb {
+    background-color: #BABABA;
+    left: 3px;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-bottom: 6px solid white;
+}
+
+.anirandom .drop-down-menu .title {
+    font-weight: 600;
+    position: relative;
+    padding-left: 15px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #D5D4D4;
+}
+
+.anirandom .drop-down-menu {
+  margin: 0;
+  padding: 0;
+  line-height: 48px;
+  font-size: 15px;
+  width: 217px;
+  height: 48px;
+  border-radius: 2px;
+}
+
+.anirandom .drop-down-menu ul li {
+  height: 48px;
+  padding-left: 15px;
+  display: block;
+}
+
+.anirandom .drop-down-menu .title::after {
+  background-position: 0 0;
+  content: "";
+  display: block;
+  width: 27px;
+  height: 27px;
+  float: right;
+  background-repeat: no-repeat;
+  margin: 20px 0px 0 0;
+  background-image: url("../images/dropdown.svg");
+}
+
+.anirandom .drop-down-menu.open {height: 245px;}
+
+.anirandom /*.drop-down-menu*/ #genre {position: absolute;float: left;}
+.anirandom /*.drop-down-menu*/ #year {position: absolute;left: 227px;}
+.anirandom /*.drop-down-menu*/ #rating {position: absolute;right: 0;}
+
+.anirandom .info {
+  position: relative;
+  width: 671px;
+  top: 85px;
+}
+
+.anirandom .info .about {
+  position: absolute;
+  width: 470px;
+  right: 0;
+}
+
+.anirandom .info .image {
+  /* float: left; */
+  position: absolute;
+  left: 0;
+  width: 166px;
+  height: 230px;
+}
+
+.anirandom .info .about .title {
+  font-size: 23px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  line-height: 23px;
+}
+
+.anirandom .anime {
+  opacity: 0.0;
+  visibility: hidden;
+  transition: 0.5s ease;
+}
+
+
+.anirandom .show.anime {
+  opacity: 1.0;
+  visibility: visible;
+}
+
+.anirandom .info .synopsis {
+  color: #626262;
+  font-weight: 300;
+  width: 460px;
+  line-height: 24px;
+  font-size: 15px;
+  height: 144px;
+  margin-bottom: 24px;
+  overflow-y: scroll;
+  padding-right: 10px;
+}
+
+.anirandom .info .about .rating {
+  font-size: 24px;
+  font-weight: 500;
+  width: fit-content;
+  float: left;
+}
+
+.anirandom .info .about .rating:before {
+  background-position: 0 0;
+  content: "";
+  display: block;
+  width: 31px;
+  height: 30px;
+  float: left;
+  background-repeat: no-repeat;
+  margin: -2px 10px 0 0;
+  /* background-color: black; */
+  background-image: url("../images/star.svg");
+}
+
+/* .anirandom .info .about .love {
+  float: right;
+
+}
+
+.anirandom .info .about  .love .love-button {
+  font-size: 24px;
+  font-weight: 500;
+  width: 116px;
+}
+
+.anirandom .info .about  .love .love-button::before {
+  background-position: 0 0;
+  content: "";
+  display: block;
+  width: 28px;
+  height: 27px;
+  float: left;
+  background-repeat: no-repeat;
+  margin: 3px 11px 0 0;
+  background-image: url("../images/heart-anirandom.svg");
+} */
+
+.anirandom .randomize-button {
+  position: absolute;
+  color: white;
+  background-color: #64D08F;
+  width: 90px;
+  border-radius: 3px;
+  top: 194px;
+  right: 0;
+  padding: 9px 19px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.anirandom .error {
+  width: 470px;
+  margin: auto;
+}
+
+.anirandom .gray_text.error {
+  width: 456px;
+  font-weight: 500;
+  font-size: 30px;
+  top: 46px;
+  position: absolute;
+  text-align: center;
+  line-height: 39px;
+}
+
+.anirandom h1.title {
+  margin: 0;
+  margin-top: 120px;
+  font-weight: 900;
+  font-size: 36px;
+  color: #5F5F5F;
+  text-align: center;
+}
+
+.anirandom .description {
+  margin-top: 15px;
+  font-weight: 800;
+  font-size: 20px;
+  color: #5F5F5F;
+  text-align: center;
+}
+
+.anirandom .first.text {
+  right: 0;
+  font-weight: 500;
+  font-size: 15px;
+  color: #5F5F5F;
+  line-height: 28px;
+  width: 511px;
+  position: absolute;
+}
+
+.anirandom .content {
+  margin: auto;
+  width: 1184px;
+  position: relative;
+  margin-top: 60px;
+}
+
+
+.anirandom .image-background {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.25);
+  background: #FFFFFF;
+  -webkit-transition: -webkit-transform 0.5s;
+  transition: transform 0.2s;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+}
+
+.anirandom .first.images .first.image-background {left: 0;position: absolute;z-index: 3;width: 611px;height: 418px;display: flex;}
+
+.anirandom .first.images .second.image-background {position: absolute;right: 0;z-index: 4;width: 611px;height: 216px;display: flex;margin-top: 283px;}
+
+.anirandom h2 {
+  font-weight: 600;
+  font-size: 18px;
+  color: #5F5F5F;
+  margin: 0;
+  margin-bottom: 15px;
+  line-height: 18px;
+}
+
+.anirandom .second.text {
+    width: 694px;
+    font-size: 20px;
+    color: #5F5F5F;
+    text-align: center;
+    line-height: 29px;
+    position: relative;
+    font-weight: 500;
+    margin: 118px auto 118px;
+}
+
+.anirandom .second.images .first.image-background {left: 0;position: absolute;z-index: 3;width: 609px;height: 558px;display: flex;}
+
+.anirandom .second.images .second.image-background {right: 0;position: absolute;z-index: 4;width: 645px;height: 304px;top: 390px;display: flex;}
+
+.anirandom .third.text {
+    width: 511px;
+    position: absolute;
+    right: 0;
+    font-size: 15px;
+    color: #5F5F5F;
+    line-height: 28px;
+}
+
+.anirandom .fourth.text {
+  position: relative;
+  margin: auto;
+  margin-top: 29px;
+  font-size: 16px;
+  color: #5F5F5F;
+  text-align: center;
+  line-height: 27px;
+  width: 464px;
+}
+
+.anirandom .line {
+  position: relative;
+  margin: auto;
+  margin-top: 50px;
+  width: 696px;
+  height: 1px;
+  background-color: #e4e4e4;
+}
+
+.anirandom .image-background:hover {
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.35);
+  transform: translateY(-5px);
+}
+
+/*.ios*/ .iphone {
+  border-radius: 3px;
+  width: 235px;
+  margin-right: 10px;
+  height: 422px;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.25);
+}
+
+.footer .link {
+  font-weight: 600;
+  font-size: 28px;
+  color: #74B4FF;
+  text-align: center;
+  text-decoration: none;
+}
+
+.line {
+  margin: auto;
+  margin-top: 315px;
   width: 696px;
   height: 1px;
   background-color: #e4e4e4;
