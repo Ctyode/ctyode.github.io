@@ -4,74 +4,457 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="css/index.js"></script>
+     <meta name="viewport" content="width=1024, initial-scale=0, user-scalable=1" >
   </head>
   <body>
-    <div class="baltzer-web">
-
-        <div class="title">Baltzer web-версия</div>
-        <div class="description">Редизайн сайта аукционного агентства</div>
-        <section style="margin: auto;width: 1134px;">
-          <div class="first text">
-            В 2017 и 2018 году я занималась редизайном сайта аукционного агентства Baltzer. Это сайт-агрегатор, собирающий информацию обо всех аукционных домах, и позволяющий быстро подавать заявки на участие в аукционах по всему миру.<p>Для участия в любом аукционе достаточно всего лишь один раз подать документы — и после этого беспокоиться только о том, что приобрести для своей коллекции.
-          </div>
-          <div class="first images">
-            <div class="first image-background">
-              <img src="images/my_auctions.png" alt="Мои аукционы" style="width:526px;height: 337px;padding:10px;">
-            </div>
-            <div class="second image-background">
-              <img src="images/home.png" alt="Мои аукционы" style="width:450px;height: 175px;padding:10px;">
-            </div>
-          </div>
+    <div class="header">
+    <section style="float: left;">
+      <div class="name" style="font-weight: 600;font-size: 23px;color: #5F5F5F;margin-left: 25px;float: left;line-height: 68px;">Соня Николаева</div>
+      <div class="profession" style="font-weight: 600;font-size: 23px;color: #A1A1A1;float: left;margin-left: 25px;line-height: 68px;">Дизайнер интерфейсов</div>
+    </section>
+    <section style="float: right;">
+      <a href="https://telegram.me/ctyode" style="margin-right: 25px;font-size: 23px;text-decoration: none;font-weight: 800;color: #74B4FF;line-height: 67px;">telegram</a>
+      <a href="mailto:ctyode@gmail.com" style="margin-right: 25px;font-size: 23px;text-decoration: none;font-weight: 800;color: #74B4FF;line-height: 67px;">почта</a>
+      <div class="phone" style="font-weight: 900;font-size: 25px;color: #989898;float: right;line-height: 67px;margin-right: 25px;">+7 911 735 26 34</div>
+    </section>
+  </div>
+    <section>
+      <div class="baltzer-web">
+        <section style="margin:auto;width: 600px;">
+          <h1>Baltzer web-версия</h1>
+          <h2>Редизайн сайта аукционного агентства</h2>
         </section>
 
-        <div class="second text">
-          Основная аудитория сайта <b>старше 40 лет</b>, поэтому упор был сделан на простоту интерфейса, и крупный размер элементов для лучшей читаемости.
-        </div>
-
-        <div class="second images">
-          <div class="first text">
-            <b>Для компании был разработан UX всех основных разделов сайта:</b>
-            <p>
-            <b style="color: #BE9A61">Календарь аукционов</b>, в котором можно быстро просмотреть будущие или прошедшие аукционы, и их лоты.
-            <p>
-            <b style="color: #BE9A61">Подарки</b> — абсолютно новый раздел, разработанный с нуля, в котором при помощи алгоритмов отбираются наиболее интересные пользователю лоты, которые подходят для подарка.
-          </div>
-          <section style="position: relative;left: 0;width: 952px;min-height: 656px;">
-            <div class="first image-background" style="display:flex;">
-              <img src="images/news.png" alt="" style="width:379px;height: 505px;margin:auto;">
+          <section style="margin: auto;width: 998px;">
+            <div class="first text">
+              В 2017 и 2018 году я занималась редизайном сайта аукционного агентства Baltzer. Это сайт-агрегатор, собирающий информацию обо всех аукционных домах, и позволяющий быстро подавать заявки на участие в аукционах по всему миру.<p>Для участия в любом аукционе достаточно всего лишь один раз подать документы — и после этого беспокоиться только о том, что приобрести для своей коллекции.
             </div>
-            <div class="second image-background" style="display:flex;">
-              <img src="images/dashboard.png" alt="" style="width:672px;height: 322px;margin:auto;">
+            <div class="first images">
+              <a target="_blank" rel="noopener noreferrer" href="pdf/my_auctions.pdf">
+              <div class="first image-background">
+                <img  src="images/my_auctions.png" alt="Мои аукционы" style="width: 518px;height: 337px;padding:10px;">
+              </div>
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="pdf/home.pdf">
+                <div class="second image-background">
+                  <img src="images/home.png" alt="Мои аукционы" style="width:450px;height: 175px;padding:10px;">
+                </div>
+              </a>
+
             </div>
           </section>
 
           <div class="second text">
-            <b style="color: #BE9A61">Новости</b> — последние новости агентства и аукционного бизнеса.
-            <p>
-            <b style="color: #BE9A61">Личный кабинет</b> — раздел сайта, в котором пользователь может отслеживать свои последние действия, оплачивать счета, а также просматривать личные коллекции, купленные предметы и управлять заявками на аукционы.
+            Основная аудитория сайта <b>старше 40 лет</b>, поэтому упор был сделан на простоту интерфейса, и крупный размер элементов для лучшей читаемости.
           </div>
-          <section style="position: relative;width: 593px;float: right;margin-top: -162px;">
 
-            <div class="third image-background" style="display:flex;">
-              <img src="images/gifts.png" alt="" style="width:463px;height: 588px;margin:auto;">
+          <div class="second images">
+            <div class="first text">
+              <b>Для компании был разработан UX всех основных разделов сайта:</b>
+              <p>
+              <b style="color: #BE9A61;">Календарь аукционов</b>, в котором можно быстро просмотреть будущие или прошедшие аукционы, и их лоты.
+              <p>
+              <b style="color: #BE9A61;">Подарки</b> — абсолютно новый раздел, разработанный с нуля, в котором при помощи алгоритмов отбираются наиболее интересные пользователю лоты, которые подходят для подарка.
             </div>
-            <div class="fourth image-background" style="display:flex;">
-              <img src="images/empty.png" alt="" style="width:197px;height: 205px;margin:auto;">
+            <section style="position: relative;left: 0;width: 952px;min-height: 656px;">
+              <a target="_blank" rel="noopener noreferrer" href="pdf/news.pdf">
+              <div class="first image-background" style="display:flex;">
+                <img src="images/news.png" alt="" style="width:379px;height: 505px;margin:auto;">
+              </div>
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="pdf/dashboard.pdf">
+              <div class="second image-background" style="display:flex;">
+                <img src="images/dashboard.png" alt="" style="width:672px;height: 322px;margin:auto;">
+              </div>
+              </a>
+            </section>
+
+            <div class="second text">
+              <b style="color: #BE9A61;">Новости</b> — последние новости агентства и аукционного бизнеса.
+              <p>
+              <b style="color: #BE9A61;">Личный кабинет</b> — раздел сайта, в котором пользователь может отслеживать свои последние действия, оплачивать счета, а также просматривать личные коллекции, купленные предметы и управлять заявками на аукционы.
+            </div>
+            <section style="position: relative;width: 593px;float: right;margin-top: -128px;">
+              <a target="_blank" rel="noopener noreferrer" href="pdf/gifts.pdf">
+              <div class="third image-background" style="display:flex;">
+                <img src="images/gifts.png" alt="" style="width:463px;height: 588px;margin:auto;">
+              </div>
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="pdf/empty.pdf">
+              <div class="fourth image-background" style="display:flex;">
+                <img src="images/empty.png" alt="" style="width:197px;height: 205px;margin:auto;">
+              </div>
+              </a>
+            </section>
+          </div>
+
+          <section style="width: 905px;height:400px;margin: auto;position: relative;top:95px;">
+            <div class="fourth text">
+              <div class="third text">
+                Иконки для раздела «Подарки»
+              </div>
+              Для сайта был с нуля разработан набор из 43 иконок, поскольку для большинства разделов не удалось подобрать готовые, а если они и были, то все были нарисованы в разных стилях и не подходили друг к другу.
+            </div>
+            <a target="_blank" rel="noopener noreferrer" href="pdf/1.png">
+            <div class="icons" style="margin:auto;width: 364px;position: absolute;height:288px;right:0;margin-top: 56px;">
+              <section style="position: relative;">
+                <img class="icon" src="images/bear.svg" alt="">
+                <img class="icon" src="images/fan.svg" alt="">
+                <img class="icon" src="images/book.svg" alt="">
+                <img class="icon" src="images/pipe.svg" alt="">
+              </section>
+              <section style="position: relative;top: 62px;">
+                <img class="icon" src="images/bottle.svg" alt="">
+                <img class="icon" src="images/postcard.svg" alt="">
+                <img class="icon" src="images/wine.svg" alt="">
+                <img class="icon" src="images/pound.svg" alt="">
+                <img class="icon" src="images/rifle.svg" alt="">
+              </section>
+              <section style="position: relative;top: 139px;width: 331px;left:39px;">
+                <img class="icon" src="images/sofa.svg" alt="">
+                <img class="icon" src="images/gear.svg" alt="">
+                <img class="icon" src="images/carpet.svg" alt="">
+                <img class="icon" src="images/ring.svg" alt="">
+              </section>
+              <section style="position: relative;top: 181px;width: 246px;left: 62px;">
+                <img class="icon" src="images/heart.svg" alt="">
+                <img class="icon" src="images/hat.svg" alt="">
+                <img class="icon" src="images/violin.svg" alt="">
+              </section>
+            </div>
+            </a>
+          </section>
+          <div class="fifth text" style="width:600px;">Пример работы адаптивного дизайна</div>
+          <video class="video" width="1280" height="720" controls>
+            <source src="baltzer.webm" type="video/webm">
+          </video>
+          <div class="line"></div>
+          <div class="sixth text">За содержимое сайта <b><a href="http://baltzer.com" style="text-decoration: none; color: #BE9A61;">baltzer.com</a></b> отвечать не могу, поскольку заказчик может вносить изменения на свое усмотрение.</div>
+      </div>
+      <div class="ios" style="margin: auto;position: relative;width: 744px;">
+        <h1>Baltzer iOS</h1>
+        <h2>Редизайн мобильного приложения с версией для iPad</h2>
+        <section>
+          <img src="images/calendar_ios.png" class="iphone" style="margin-right: 11px;">
+          <img src="images/auction_ios.png" class="iphone" style="margin-right: 10px;">
+          <img src="images/lot_ios.png" class="iphone">
+        </section>
+        <img src="images/gifts_ipad.png" style="margin-top: 25px;width: 735px;height: 551px;box-shadow: 0 3px 6px 0 rgba(0,0,0,0.25);">
+      </div>
+      <div class="anirandom">
+        <section style="width: 993px;margin: auto;">
+        <h1>Anirandom</h1>
+        <h2 >Сайт-рандомайзер для любителей аниме</h2>
+        </section>
+
+        <section class="content">
+          <section style="width: 671px;height: 316px;margin:auto;position: relative;">
+            <section style="width:671px;z-index:2; position:relative;">
+              <div class="drop-down-menu" id="genre">
+                <div class="title">Genre</div>
+                <ul>
+                  <li>Genre</li>
+                  <li>Action</li>
+                  <li>Adventure</li>
+                  <li>Drama</li>
+                </ul>
+              </div>
+              <div class="drop-down-menu" id="year">
+                <div class="title">Year</div>
+                <ul>
+                  <li>Year</li>
+                  <li>2016</li>
+                  <li>2015</li>
+                  <li>2014</li>
+                </ul>
+              </div>
+              <div class="drop-down-menu" id="rating">
+                <div class="title">Rating</div>
+                <ul>
+                  <li>Rating</li>
+                  <li>9</li>
+                  <li>8</li>
+                  <li>7</li>
+                </ul>
+              </div>
+            </section>
+            <div class="info">
+              <section class="show anime" genre="action" year="2015" rating="9">
+                <img src="https://moe.shikimori.org/system/animes/original/28977.jpg?1518698703" class="image">
+                <section class="about">
+                  <div class="title">Gintama</div>
+                  <div class="synopsis">The Amanto, aliens from outer space, have invaded Earth and taken over feudal Japan. As a result, a prohibition on swords has been established, and the samurai of Japan are treated with disregard as a consequence.</div>
+                  <div class="rating">9.13</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2016" rating="9">
+                <img src="https://kawai.shikimori.org/system/animes/original/32281.jpg?1518698241" class="image">
+                <section class="about">
+                  <div class="title">Your name</div>
+                  <div class="synopsis">Mitsuha Miyamizu, a high school girl, yearns to live the life of a boy in the bustling city of Tokyo—a dream that stands in stark contrast to her present life in the countryside. Meanwhile in the city, Taki Tachibana lives a busy life as a high school student while juggling his part-time job and hopes for a future in architecture.</div>
+                  <div class="rating">9.16</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2016" rating="9">
+                <img src="https://kawai.shikimori.org/system/animes/original/28851.jpg?1518698716" class="image">
+                <section class="about">
+                  <div class="title">Koe no Katachi</div>
+                  <div class="synopsis">As a wild youth, elementary school student Shouya Ishida sought to beat boredom in the cruelest ways. When the deaf Shouko Nishimiya transfers into his class, Shouya and the rest of his class thoughtlessly bully her for fun. However, when her mother notifies the school, he is singled out and blamed for everything done to her. With Shouko transferring out of the school, Shouya is left at the mercy of his classmates. He is heartlessly ostracized all throughout elementary and middle school, while teachers turn a blind eye.</div>
+                  <div class="rating">8.30</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="adventure" year="2016" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/1572/95010.jpg" class="image">
+                <section class="about">
+                  <div class="title">JoJo no Kimyou na Bouken: Ougon no Kaze</div>
+                  <div class="synopsis">Naples, 2001. Giorno Giovanna is a small-time crook with one big dream—to become a "Gang-Star." No ordinary thief, Giorno has a connection to the remarkable Joestar bloodline, and possesses a Stand named Gold Experience. His dream starts to become reality when he meets Bruno Buccellati, a mobster from the gang Passione and a fellow Stand user himself. Realizing that they share similar ideals, and both disagree with the gang's harmful affairs, Giorno reveals his goal to Bruno: with Bruno's help, he will reform Passione by overthrowing the boss.</div>
+                  <div class="rating">8.85</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="action" year="2015" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/12/76049.jpg" class="image">
+                <section class="about">
+                  <div class="title">One Punch Man</div>
+                  <div class="synopsis">The seemingly ordinary and unimpressive Saitama has a rather unique hobby: being a hero. In order to pursue his childhood dream, he trained relentlessly for three years—and lost all of his hair in the process. Now, Saitama is incredibly powerful, so much so that no enemy is able to defeat him in battle. In fact, all it takes to defeat evildoers with just one punch has led to an unexpected problem—he is no longer able to enjoy the thrill of battling and has become quite bored.</div>
+                  <div class="rating">8.71</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="adventure" year="2015" rating="7">
+                <img src="https://myanimelist.cdn-dena.com/r/334x484/images/anime/1424/93855.webp?s=88ec809fd00e4087da52ff961e9cc0c4" class="image">
+                <section class="about">
+                  <div class="title">Irozuku Sekai no Ashita kara</div>
+                  <div class="synopsis">Set in the city of Nagasaki, the story takes place in a world where a minuscule amount of magic remains in everyday life. Hitomi Tsukishiro is a 17-year-old descendant of a witch family who grew up with stale emotions, as she lost her sense of color at a very young age. Feeling sorry for her granddaughter's future, Kohaku, a great witch, sends Hitomi to the past, the year 2018. Through exchanges with her 17-year-old grandmother and her club members, the story follows Hitomi's growth as a person.</div>
+                  <div class="rating">7.82</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="adventure" year="2015" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/9/76662.jpg" class="image">
+                <section class="about">
+                  <div class="title">Haikyuu!! Second Season</div>
+                  <div class="synopsis">Following their participation at the Inter-High, the Karasuno High School volleyball team attempts to refocus their efforts, aiming to conquer the Spring tournament instead.</div>
+                  <div class="rating">8.87</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2016" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/3/67177.jpg" class="image">
+                <section class="about">
+                  <div class="title">Shigatsu wa Kimi no Uso</div>
+                  <div class="synopsis">Music accompanies the path of the human metronome, the prodigious pianist Kousei Arima. But after the passing of his mother, Saki Arima, Kousei falls into a downward spiral, rendering him unable to hear the sound of his own piano.</div>
+                  <div class="rating">8.80</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2014" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/11/55225.jpg" class="image">
+                <section class="about">
+                  <div class="title">Mahou Shoujo Madoka Magica</div>
+                  <div class="synopsis">Madoka Kaname and Sayaka Miki are regular middle school girls with regular lives, but all that changes when they encounter Kyuubey, a cat-like magical familiar, and Homura Akemi, the new transfer student.</div>
+                  <div class="rating">8.45</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2015" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/6/42265.jpg" class="image">
+                <section class="about">
+                  <div class="title">Mahou Shoujo Madoka Magica Movie 2</div>
+                  <div class="synopsis">Though Sayaka Miki's wish was fulfilled, the unforeseen consequences that came with it overwhelm her, causing her soul gem to become tainted as she succumbs to despair and eventually loses her humanity. Homura Akemi reveals to Kyouko Sakura and Madoka Kaname the ultimate fate of magical girls: once their soul gem becomes tainted, it transforms into a Grief Seed, and they are reborn as witches—a truth Homura learned only through repeating history countless times in a bid to prevent Madoka's tragedy.</div>
+                  <div class="rating">8.44</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2015" rating="8">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/3/52585.jpg" class="image">
+                <section class="about">
+                  <div class="title">Mahou Shoujo Madoka Magica Movie 3</div>
+                  <div class="synopsis">The young girls of Mitakihara happily live their lives, occasionally fighting off evil, but otherwise going about their peaceful, everyday routines. However, Homura Akemi feels that something is wrong with this unusually pleasant atmosphere—though the others remain oblivious, she can't help but suspect that there is more to what is going on than meets the eye: someone who should not exist is currently present to join in on their activities.</div>
+                  <div class="rating">8.46</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2016" rating="9">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/3/88469.jpg" class="image">
+                <section class="about">
+                  <div class="title">3-gatsu no Lion 2nd Season</div>
+                  <div class="synopsis">Now in his second year of high school, Rei Kiriyama continues pushing through his struggles in the professional shogi world as well as his personal life. Surrounded by vibrant personalities at the shogi hall, the school club, and in the local community, his solitary shell slowly begins to crack.</div>
+                  <div class="rating">9.06</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="drama" year="2016" rating="9">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/2/89401.jpg" class="image">
+                <section class="about">
+                  <div class="title">Owarimonogatari 2nd Season</div>
+                  <div class="synopsis">Following an encounter with oddity specialist Izuko Gaen, third-year high school student Koyomi Araragi wakes up in a strange, deserted void only to be greeted by a joyfully familiar face in an alarmingly unfamiliar place.</div>
+                  <div class="rating">9.02</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="adventure" year="2014" rating="7">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/5/27013.jpg" class="image">
+                <section class="about">
+                  <div class="title">Kuroshitsuji</div>
+                  <div class="synopsis">Young Ciel Phantomhive is known as "the Queen's Guard Dog," taking care of the many unsettling events that occur in Victorian England for Her Majesty. Aided by Sebastian Michaelis, his loyal butler with seemingly inhuman abilities, Ciel uses whatever means necessary to get the job done. But is there more to this black-clad butler than meets the eye?</div>
+                  <div class="rating">7.98</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime" genre="adventure" year="2015" rating="7">
+                <img src="https://myanimelist.cdn-dena.com/images/anime/8/21690.jpg" class="image">
+                <section class="about">
+                  <div class="title">Gake no Ue no Ponyo</div>
+                  <div class="synopsis">A lonely little boy named Sousuke lives with his mother by the sea, flashing messages across the water to his father's boat. One day, amid the detritus brought in with the tide, he stumbles upon a little goldfish. Delighted by this strange new friend, he takes her home and names her Ponyo. Sousuke comes to learn, however, that Ponyo is no ordinary fish. A visit from a strange man brings with it fantastical happenings that lead Sousuke and Ponyo on an enlightening adventure. </div>
+                  <div class="rating">7.93</div>
+                  <!-- <div class="love">
+                    <div class="love-button">Love it!</div>
+                  </div> -->
+                </section>
+              </section>
+
+              <section class="anime">
+                <section class="error">
+                  <div class="gray_text error">
+                    /(.□. \)<br>
+                    You're trying to pierce the heavens with your drill.
+                  </div>
+                </section>
+              </section>
+              <div class="randomize-button">RANDOMIZE</div>
             </div>
           </section>
+          <section style="position: relative;height: 500px;margin-top: 110px;">
+            <div class="first text">
+              <p style="font-size: 16px;margin: 0;margin-bottom: 10px;"><b>Выше — упрощенная демонстрация работы сайта.</b></p>
+              В 2016 году я придумала сайт, когда в очередной раз не знала, что посмотреть. Заодно решила изучить веб-фреймворк для бэкэнда и научиться верстать, и написать реализацию этого сайта.
+              <p>Выбираешь жанр, год, рейтинг, жмешь на кнопку, и, вуаля, не нужно думать, спрашивать чьи-то рекомендации — просто смотришь.
+            </div>
+            <div class="first images" style="position: relative;">
+              <a target="_blank" rel="noopener noreferrer" href="pdf/plan_to_watch.pdf">
+              <div class="first image-background">
+                <img src="images/plan_to_watch.png" style="width: 537px;height: 347px;margin: auto;">
+              </div>
+              </a>
+              <a target="_blank" rel="noopener noreferrer" href="pdf/new_review.pdf">
+              <div class="second image-background">
+                <img src="images/edit.png"  style="width:577px;height: 182px;margin: auto;">
+              </div>
+              </a>
+            </div>
+
+          </section>
+          <div class="second text">
+            На сайте всего четыре раздела: главная страница с подбором аниме, списки с сохраненками и рецензиями, и поиск по всем аниме в базе.
+          </div>
+          <div class="second images" style="position: relative;height: 706px;">
+            <div class="third text">
+              <p style="margin: 0;margin-bottom: 10px;font-size:16px;"><b>Сохранение аниме в список</b></p>
+              На сайте можно сохранять аниме в два списка — «Хочу посмотреть», и «просмотренное».
+              </p>
+              Есть два способа это сделать — воспользоваться рандомайзером на главной странице, и нажать там кнопку "мне нравится", или воспользоваться поиском по полной базе аниме."
+              <p>
+              Можно писать рецензии на понравившиеся аниме (или наоборот), и ставить им оценки, а потом скидывать ссылку на свой профиль друзьям.
+            </div>
+
+            <a target="_blank" rel="noopener noreferrer" href="pdf/completed.pdf">
+            <div class="first image-background">
+              <img src="images/completed.png" style="width: 520px;height: 476px;margin: auto;">
+            </div>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="pdf/search.pdf">
+            <div class="second image-background">
+              <img src="images/search.png"  style="width:615px;height: 274px;margin: auto;">
+            </div>
+          </a>
+          </div>
+          <div class="line"></div>
+          <div class="fourth text">По ссылке <b><a href="http://anirandom.me" style="text-decoration: none; color: #64D08F;">anirandom.me</a></b> доступен прототип, поэтому я не могу гарантировать стабильность его работы.</div>
+        </section>
         </div>
 
-        <div class="third text">Пример работы адаптивного дизайна</div>
-        <video class="video" width="1280" height="720" controls>
-          <source src="output1.webm" type="video/webm">
-        </video>
-        <div class="line"></div>
-        <div class="fourth text">За содержимое сайта <b><a href="http://baltzer.com" style="text-decoration: none; color: #BE9A61;">baltzer.com</a></b> отвечать не могу, поскольку заказчик может вносить изменения на свое усмотрение.</div>
+        <div class="android" style="width: 998px;margin: auto;">
+          <h1>Anirandom — android-версия</h1>
+          <h2>Мобильная версия сайта Anirandom</h2>
+          <img src="images/sign_in_android.png" class="iphone" style="margin-right: 15px;">
+          <img src="images/random_android.png" class="iphone" style="margin-right: 15px;">
+          <img src="images/completed_android.png" class="iphone" style="margin-right: 15px;">
+          <img src="images/review_android.png" class="iphone">
+        </div>
+        <div class="vk" style="margin: auto;width:998px;">
+          <h1>VK</h1>
+          <h2>Лендинг для новой функциональности — HR-сообществ</h2>
+          <video class="video" width="1024" height="833" style="border-radius: 4px;height: 832px;width: 998px;" controls>
+            <source src="vk.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="footer">
+          <h1 style="width: 355px;margin:auto;margin-top: 110px;">Вам нужно что-то еще?</h1>
+          <section style="width: 494px;margin: auto;margin-top: 29px;">
+            <a href="pdf/stickers.pdf" class="link" style="margin-right: 28px;">Стикеры</a>
+            <a href="pdf/girls.pdf" class="link" style="margin-right: 28px;">Рисую аниме девочек</a>
+            <a href="pdf/icons_all.pdf" class="link">Иконки</a>
+          </section>
+          <section style="width: 531px;margin:auto;margin-top: 18px;">
+            <a href="pdf/pixel.pdf" class="link" style="margin-right: 28px;">Пиксель арт</a>
+            <a href="pdf/logo.pdf" class="link" style="margin-right: 28px;">Логотипы</a>
+            <div style="font-weight: 600;font-size: 24px;color: #5F5F5F;float: right;">Верстаю (этот сайт)</div>
+          </section>
+        </div>
+        <section>
+          <div class="line"></div>
+          <div class="first text" style="font-weight: 600;font-size: 30px;color: #5F5F5F;text-align: center;margin: auto;margin-top: 22px;width: 600px;">ctyode@gmail.com</div>
+        </section>
+    </section>
 
 
-    </div>
-
-
-    </div>
   </body>
 </html>
