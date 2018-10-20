@@ -22,12 +22,24 @@
   src: url("../lato/Lato-Heavy.ttf");
 }
 
-body {
+body, html {
   font-family: 'Lato';
   font-weight: 500;
   margin: 0;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   margin-bottom: 100px;
+}
+
+h1 {color: #5F5F5F;text-align: center;margin: 0;margin-top: 110px;font-size: 36px;font-weight: 600;}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  color: #5F5F5F;
 }
 
 .header {
@@ -35,7 +47,7 @@ body {
   height: 70px;
   background: #FFFFFF;
   border: 1px solid #E4E4E4;
-  min-width: 1000px;
+  /* min-width: 1000px; */
 }
 
 .baltzer-web {
@@ -210,6 +222,7 @@ body {
   text-align: left;
   line-height: 30px;
   color: #5f5f5f;
+  margin-top: 119px;
 }
 
 .baltzer-web .icons section:nth-child(1) .icon:nth-child(1) {position: absolute;left: 50px;top: 24px;}
@@ -235,11 +248,13 @@ body {
 
 .baltzer-web .fifth.text {
   position: relative;
-  margin-top: 190px;
   font-size: 24px;
   color: #5F5F5F;
   text-align: center;
   font-weight: 600;
+  width: 600px;
+  margin: auto;
+  margin-top: 190px;
 }
 
 .baltzer-web .sixth.text {
@@ -537,15 +552,6 @@ body {
 
 .anirandom .first.images .second.image-background {position: absolute;right: 0;z-index: 4;width: 611px;height: 216px;display: flex;margin-top: 283px;}
 
-.anirandom h2 {
-  font-weight: 600;
-  font-size: 18px;
-  color: #5F5F5F;
-  margin: 0;
-  margin-bottom: 15px;
-  line-height: 18px;
-}
-
 .anirandom .second.text {
     width: 694px;
     font-size: 20px;
@@ -613,7 +619,7 @@ body {
 
 .line {
   margin: auto;
-  margin-top: 315px;
+  margin-top: 215px;
   width: 696px;
   height: 1px;
   background-color: #e4e4e4;
