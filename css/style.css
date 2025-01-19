@@ -493,6 +493,7 @@ h2 {
   padding: 9px 19px;
   cursor: pointer;
   font-size: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 .anirandom .error {
